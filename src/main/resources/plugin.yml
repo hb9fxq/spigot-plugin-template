@@ -1,0 +1,15 @@
+name: ${name}
+version: ${version}
+description: ${description}
+author: ${PluginAuthor}
+website: ${url}
+
+main: ${mainClass}
+
+commands:
+    superlogical:
+        description: superlogical sample plugin (https://github.com/krippendorf)
+        permission: spigotplugin.superlogical
+        usage: /<command>
+
+permissions: {}
