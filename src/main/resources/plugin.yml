@@ -11,5 +11,9 @@ commands:
         description: superlogical sample plugin (https://github.com/krippendorf)
         permission: spigotplugin.superlogical
         usage: /<command>
+    bern:
+        description: displays the current weather for bern
+        permission: spigotplugin.superlogical
+        usage: /<command>
 
 permissions: {}

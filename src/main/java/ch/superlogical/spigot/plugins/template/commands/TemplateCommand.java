@@ -31,7 +31,7 @@ public class TemplateCommand implements CommandExecutor {
 
         Bukkit.getScheduler().runTaskAsynchronously(parentPlugin, () -> {
 
-            String infoMessage = String.format("Hi all, the superlogical command was called asynchronously. Provided by %s (%s)", parentPlugin.getName(), parentPlugin.getDescription().getDescription());
+            String infoMessage = String.format("Hi all, the superlogical command was called asynchronously. ..:::Provided by %s (%s)", parentPlugin.getName(), parentPlugin.getDescription().getDescription());
 
             getLogger().info(infoMessage);
 
